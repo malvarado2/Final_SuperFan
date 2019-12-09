@@ -6,7 +6,7 @@ var e = document.getElementById("picture3")
 var f = document.getElementById("picture4")
 var g = document.getElementById("midimg")
 
-
+/* when clicked it randomly selects one image */
 function androidClick (){
 	c.classList.remove ("none")
 	d.classList.remove ("none")
@@ -98,7 +98,7 @@ function androidClick (){
 	}
 }
 
-
+/* when clicked it randomly selects one image */
 function appleClick (){
 	c.classList.remove ("none")
 	d.classList.remove ("none")
@@ -190,7 +190,7 @@ function appleClick (){
 	}
 }
 
-
+/* when clicked resets page */
 function resetAll(){
 	c.classList.add("none")
 	d.classList.add("none")
@@ -208,14 +208,4 @@ function resetAll(){
 	f.classList.remove ("atopleftimg2")
 	f.classList.remove ("atopleftimg3")
 	f.classList.remove ("atopleftimg4")
-}
-
-function addItems1 (){
-	g.classList.remove ("middleimg3")
-	g.classList.remove ("middleimg2")
-	g.classList.add ("middleimg")
-	c.classList.remove ("none")
-	d.classList.remove ("none")
-	e.classList.remove ("none")
-	f.classList.remove ("none")
 }

@@ -11,13 +11,7 @@ body {
 	display: flex;
 }
 
-.red {
-	background-color: red;
-}
 
-.light_blue {
-	background-color: #0078FF;
-}
 
 .column2 {
 	height: 100%;
@@ -47,12 +41,10 @@ body {
 	background-color: #800080;	
 }
 
-.yes-cursor:hover {cursor: pointer;}
-.no-cursor:hover {cursor: default;}
 
 .img1 {
-	max-height: 90%;
-	max-width: 90%;
+	max-height: 80%;
+	max-width: 80%;
 }
 
 .img2 {
@@ -61,10 +53,8 @@ body {
 }
 
 .img3 {
-	max-height: 100%;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	max-height: 60%;
+	max-width: 60%;
 }
 
 .center {
@@ -81,11 +71,19 @@ body {
 .none {
 	display:none;
 }
+/* colors*/
+.red {
+	background-color: red;
+}
 
+.light_blue {
+	background-color: #0078FF;
+}
 .black {
  background-color: #000000;	
 }
 
+/* cursor effects*/
 .hover2:hover {
 filter: opacity(75%);
 }
@@ -94,6 +92,11 @@ filter: opacity(75%);
     transform: scale(0.95, 0.95);
 }
 
+.yes-cursor:hover {
+	cursor: pointer;
+}
+
+/* images */
 .middleimg {
 	content: url("images/apple/vs.png");
 }
@@ -258,6 +261,7 @@ filter: opacity(75%);
 	content: url("images/Apple/ipad.png");
 }
 
+/* iPad layout */
 @media only screen and (max-width: 1800px) {
 	body {
 		display: block;
@@ -288,6 +292,7 @@ filter: opacity(75%);
 	}
 }
 
+/* Mobile layout */
 @media only screen and (max-width: 850px) {
 	body {
 		display: block;
@@ -323,8 +328,4 @@ filter: opacity(75%);
 		width: 100%;
 	}
 }
-
-/*
-0078FF
-*/ 
 
